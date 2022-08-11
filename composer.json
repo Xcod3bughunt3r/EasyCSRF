@@ -1,0 +1,23 @@
+{
+    "name": "Xcod3bughunt3r/easycsrf",
+    "description": "A simple, standalone CSRF protection library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ALIF FUSOBAR",
+            "email": "aku.aliffusobar@gmail.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+        "php": ">=7.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+        "psr-4": {
+            "EasyCSRF\\": "src/"
+        }
+    }
+}
